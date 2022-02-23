@@ -1,0 +1,50 @@
+
+.carousel-inner .carousel-item img {
+    height: 30rem;
+    
+}
+
+@media only screen and (max-width: 766px){
+    .carousel-inner .carousel-item img {
+        height: 15rem;
+        
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .bd-placeholder-img{    
+    display: flex;
+    height: 9rem;
+    width: 12rem;
+    margin: 16px;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    h2{
+        font-size: 1.3rem;
+        /* background-color: black; */
+        /* opacity: 0.7; */
+        /* color: white; */
+    }
+    .pera{
+        font-size: 0.8rem;
+    }
+    .carousel-item{
+        background-color: rgb(77, 23, 23) !important;
+       
+    }
+   .carousel-inner .btn{
+       font-size: 0.6rem;
+    
+   }
+   .carousel-inner img{
+    opacity: 0.6;
+    
+   }
+   
+}
+
+
